@@ -1,0 +1,60 @@
+/* Colores principales */
+:root {
+    --primary-color: rgb(98, 0, 238); /* Color principal */
+    --accent-color: rgb(3, 218, 198); /* Color de acento */
+    --surface-color: #fff; /* Color de fondo predeterminado */
+    --on-surface-color: #000; /* Color del texto */
+    --robertoai-color: rgb(255, 0, 0); /* Color RGB para RobertoAI */
+    --light-green: #8bc34a; /* Verde claro */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente de Google */
+    background-color: var(--surface-color); /* Color de fondo */
+    color: var(--on-surface-color); /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.header {
+    background-color: var(--primary-color); /* Color principal */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.robertoai-text {
+    color: var(--robertoai-color); /* Color RGB para RobertoAI */
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    color: var(--primary-color); /* Color principal */
+}
+
+/* Botón */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--light-green); /* Color de fondo igual al verde claro */
+    color: var(--on-surface-color); /* Color del texto */
+    text-decoration: none;
+    border-radius: 20px; /* Borde redondeado */
+    border: none; /* Sin borde */
+}
